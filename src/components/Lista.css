@@ -1,0 +1,83 @@
+.Lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Lista h3 {
+    color:#fff;
+    font-weight: bold;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.322);
+}
+
+.Lista input{
+    width:80%;
+    margin: 5px 5px;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.322);
+    padding:7px;
+    font: size 15px;
+    font-weight: bold;
+
+}
+.Lista input:focus{
+    outline:none;
+    box-shadow: 0px 0px 40px 5px rgba(204,0,255, 0.685);
+    transition: all .3s ease-in-out;
+}
+
+.Lista button{
+    margin: 10px 5px;
+    color:#fff;
+    background-color: red;
+    font-size: 15px;
+    font-weight: bold;
+    width:90%;
+    padding: 10px;
+    border-radius: 7px;
+    border:none;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.322);
+    transition: all .3s ease-in-out;
+}
+
+.Lista button:hover{
+    cursor:pointer;
+    background-color: rgb(179, 9, 9);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title h3{
+    color: black;
+    margin-top: 10px;
+
+}
+
+.divLista{
+    width: 20rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 20px 60px 5px rgba(0, 0, 0, 0.329);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-bottom:20px ;
+}
+
+.divLista ol{
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    color: black;
+}
